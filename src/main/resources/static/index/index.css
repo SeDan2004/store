@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+header, main, footer {
+  padding: 0 2%
+}
+
+header {
+  height: 7rem;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site_name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
